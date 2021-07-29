@@ -39,7 +39,7 @@
 <p align="justify"> 
 
 To detect the capacitance of the plant, we need to use a capacitive sensor library. 
-After downloading and adding the library to your Arduino IDE, include that library in your code. This library helps to read the capacitance of Arduino pins.\
+After downloading and adding the library to your Arduino IDE, include that library in your code. This library helps to read the capacitance of Arduino pins.
 </p>
 
 <p align="justify"> 
