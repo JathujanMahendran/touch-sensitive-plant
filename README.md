@@ -35,49 +35,17 @@
 
  
 ## Arduino Program 
+
 <p align="justify"> 
 
 To detect the capacitance of the plant, we need to use a capacitive sensor library. 
-After downloading and adding the library to your Arduino IDE, include that library in your code. This library helps to read the capacitance of Arduino pins.
+After downloading and adding the library to your Arduino IDE, include that library in your code. This library helps to read the capacitance of Arduino pins.\
+</p>
 
-*#include <CapacitiveSensor.h>*
-
-We have already connected the resistor between pin 2 and 4, so we need to measure the capacitance in pin 4, for that, defined the pins.
-
-*CapacitiveSensor   cs_2_4 = CapacitiveSensor(2,4);*
-
-capacitive sensor toggles a microcontroller pin, that is it sends the pin to a new state and then waits for the receive pin to change to the same state as the send pin. In the setup section, I defined different pins for led and sensor lead.
-
-  *pinMode(4, INPUT);
-  pinMode(5, OUTPUT);
-  pinMode(6, OUTPUT);
-  pinMode(7, OUTPUT);*
-  
-In the loop section With the help of digital read, we can read the state of pin 4 and we store the value in variable ‘r’.
-
-r = digitalRead(4);
-  if (r == HIGH && p == LOW && millis() - time > debounce) {
-    cnt++;
-  if (state == HIGH)
-     state = LOW;
-if(cnt == 1){
-    digitalWrite(5, HIGH);
-    digitalWrite(6, LOW);
-    digitalWrite(7, LOW);
-  }
-  if(cnt == 2){
-    digitalWrite(5, LOW);
-    digitalWrite(6, HIGH);
-    digitalWrite(7, LOW);
-  }
-  if(cnt == 3){
-    digitalWrite(5, LOW);
-    digitalWrite(6, LOW);
-    digitalWrite(7, HIGH);
-  }
-  if(cnt > 3){
-      cnt = 1;
-  }
-  p = r;
-Each time a touch is detected, it will increase the counts and I have given different conditions to light up in different colors based on the incremented number.
+<p align="justify"> 
+We have already connected the resistor between pin 2 and 4, so we need to measure the capacitance in pin 4, for that, defined the pins.</p>
+<p align="justify"> 
+capacitive sensor toggles a microcontroller pin, that is it sends the pin to a new state and then waits for the receive pin to change to the same state as the send pin. In the setup section, I defined different pins for led and sensor lead.</p>
+<p align="justify"> 
+Each time a touch is detected, it will increase the counts and I have given different conditions to light up in different colors based on the incremented number.</p>
 
