@@ -28,9 +28,9 @@
 ## Steps
 
 
--First, connect the one mega ohm resistor in between Arduino pin 2 and pin 4. 
--Then connect a long wire (copper) to pin 4. This wire acts as an electrode or touch lead, then connects RGB led common ground to ground and red to D5 of Arduino and green to D6, blue to D7.
--finally, attach the wire to the plant body and that's it 
+- First, connect the one mega ohm resistor in between Arduino pin 2 and pin 4. 
+- Then connect a long wire (copper) to pin 4. This wire acts as an electrode or touch lead, then connects RGB led common ground to ground and red to D5 of Arduino and green to D6, blue to D7.
+- finally, attach the wire to the plant body and that's it 
 
 
  
