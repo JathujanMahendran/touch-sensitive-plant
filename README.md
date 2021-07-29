@@ -40,17 +40,19 @@
 To detect the capacitance of the plant, we need to use a capacitive sensor library. 
 After downloading and adding the library to your Arduino IDE, include that library in your code. This library helps to read the capacitance of Arduino pins.
 
-#include <CapacitiveSensor.h>
-<p align="justify"> 
-	We have already connected the resistor between pin 2 and 4, so we need to measure the capacitance in pin 4, for that, defined the pins.
+*#include <CapacitiveSensor.h>*
 
-CapacitiveSensor   cs_2_4 = CapacitiveSensor(2,4);
+We have already connected the resistor between pin 2 and 4, so we need to measure the capacitance in pin 4, for that, defined the pins.
+
+*CapacitiveSensor   cs_2_4 = CapacitiveSensor(2,4);*
+
 capacitive sensor toggles a microcontroller pin, that is it sends the pin to a new state and then waits for the receive pin to change to the same state as the send pin. In the setup section, I defined different pins for led and sensor lead.
 
-  pinMode(4, INPUT);
+  *pinMode(4, INPUT);
   pinMode(5, OUTPUT);
   pinMode(6, OUTPUT);
-  pinMode(7, OUTPUT);
+  pinMode(7, OUTPUT);*
+  
 In the loop section With the help of digital read, we can read the state of pin 4 and we store the value in variable ‘r’.
 
 r = digitalRead(4);
