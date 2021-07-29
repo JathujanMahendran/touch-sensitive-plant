@@ -13,27 +13,29 @@
 
 
 
-How to Detect a Touch on the Plant?
-Our plant circuit is also based on the capacitive touch sensor. That is we will connect a wire to our plant to make it act like an electrode, then when we touch the plant, due to the presence of our body, the capacitance changes and this will be detected by our circuit. And talking about the circuit, we need a microcontroller to detect the change in capacitance and also control the whole system. In our case, the microcontroller is Arduino.
-Materials Needed
-Arduino
-Common cathode RGB LED
-1 megohm resistor (brown, black, green)
-Connecting wire
-A plant with  its base
-Common PCB
-Circuit Diagram 
+## How to Detect a Touch on the Plant?
+<p align="justify"> Our plant circuit is also based on the capacitive touch sensor. That is we will connect a wire to our plant to make it act like an electrode, then when we touch the plant, due to the presence of our body, the capacitance changes and this will be detected by our circuit. And talking about the circuit, we need a microcontroller to detect the change in capacitance and also control the whole system. In our case, the microcontroller is Arduino. </p>
 
-Steps
+## Materials Needed
+* Arduino
+* Common cathode RGB LED
+* 1 megohm resistor (brown, black, green)
+* Connecting wire
+* A plant with  its base
+* Common PCB
+* Circuit Diagram 
 
-First, connect the one mega ohm resistor in between Arduino pin 2 and pin 4. 
+## Steps
+
+<p align="justify"> First, connect the one mega ohm resistor in between Arduino pin 2 and pin 4. 
 
 Then connect a long wire (copper) to pin 4. This wire acts as an electrode or touch lead, then connects RGB led common ground to ground and red to D5 of Arduino and green to D6, blue to D7.
 
-finally, attach the wire to the plant body and that's it
+finally, attach the wire to the plant body and that's it </p>
+
 
  
-Arduino Program 
+## Arduino Program 
 To detect the capacitance of the plant, we need to use a capacitive sensor library. 
 After downloading and adding the library to your Arduino IDE, include that library in your code. This library helps to read the capacitance of Arduino pins.
 
