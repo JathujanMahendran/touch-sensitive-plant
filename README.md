@@ -27,20 +27,23 @@
 
 ## Steps
 
-<p align="justify"> First, connect the one mega ohm resistor in between Arduino pin 2 and pin 4. 
-
-Then connect a long wire (copper) to pin 4. This wire acts as an electrode or touch lead, then connects RGB led common ground to ground and red to D5 of Arduino and green to D6, blue to D7.
-
-finally, attach the wire to the plant body and that's it </p>
+<p align="justify"> 
+	
+-First, connect the one mega ohm resistor in between Arduino pin 2 and pin 4. 
+-Then connect a long wire (copper) to pin 4. This wire acts as an electrode or touch lead, then connects RGB led common ground to ground and red to D5 of Arduino and green to D6, blue to D7.
+-finally, attach the wire to the plant body and that's it </p>
 
 
  
 ## Arduino Program 
+<p align="justify"> 
+
 To detect the capacitance of the plant, we need to use a capacitive sensor library. 
 After downloading and adding the library to your Arduino IDE, include that library in your code. This library helps to read the capacitance of Arduino pins.
 
 #include <CapacitiveSensor.h>
-We have already connected the resistor between pin 2 and 4, so we need to measure the capacitance in pin 4, for that, defined the pins.
+<p align="justify"> 
+	We have already connected the resistor between pin 2 and 4, so we need to measure the capacitance in pin 4, for that, defined the pins.
 
 CapacitiveSensor   cs_2_4 = CapacitiveSensor(2,4);
 capacitive sensor toggles a microcontroller pin, that is it sends the pin to a new state and then waits for the receive pin to change to the same state as the send pin. In the setup section, I defined different pins for led and sensor lead.
