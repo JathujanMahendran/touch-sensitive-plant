@@ -4,6 +4,8 @@
 
 <p align="justify">We will learn how to build a touch-based color-changing plant using Arduino. When you touch the plant, the color of the plant vase will automatically change. This is a nice indoor decorative project and also a small hobby project for beginners to build and learn some interesting stuff.</p>
 
+<img src="source/image1.jpg" height="20px" weidth="20px">
+
 **Author**
  * Jathujan Mahendran , maker at Dream Space Academy.
 
