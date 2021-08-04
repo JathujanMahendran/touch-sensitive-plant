@@ -14,7 +14,8 @@
  * Rathees Koneswaran , maker at Dream Space Academy. 
  * Sajeev Punithakaran , maker at Dream Space Academy.
 
-
+<video width="320" height="240">
+  <source src="source/video1.MOV" type="video/mp4">
 ## How to Detect a Touch on the Plant?
 <p align="justify"> Our plant circuit is also based on the capacitive touch sensor. That is we will connect a wire to our plant to make it act like an electrode, then when we touch the plant, due to the presence of our body, the capacitance changes and this will be detected by our circuit. And talking about the circuit, we need a microcontroller to detect the change in capacitance and also control the whole system. In our case, the microcontroller is Arduino. </p>
 
