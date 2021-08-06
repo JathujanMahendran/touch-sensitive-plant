@@ -2,23 +2,25 @@
 
 # Touch Sensitive Plant
 
-<p align="justify">We will learn how to build a touch-based color-changing plant using Arduino. When you touch the plant, the color of the plant vase will automatically change. This is a nice indoor decorative project and also a small hobby project for beginners to build and learn some interesting stuff.</p>
+<p align="justify">
+We will learn how to build a touch-based color-changing plant using Arduino. When you touch the plant, the color of the plant vase will automatically change. This is a nice indoor decorative project and also a small hobby project for beginners to build and learn some interesting stuff.
+</p>
 
 <p align="center">
 <img src="source/image-video/image1.jpg" height="400px" weidth="400px" >
 </p>
+
 **Author**
- * Jathujan Mahendran , maker at Dream Space Academy.
+ * Jathujan Mahendran jathu , Community Innovator at Dream Space Academy.
 
 **Acknowledgment**
  * Jerushan Sritharan , Guardian of Electronics Lab, Dream Space Academy.
- * Rathees Koneswaran , maker at Dream Space Academy. 
- * Sajeev Punithakaran , maker at Dream Space Academy.
+ * Rathees Koneswaran ,  Community Maker at Dream Space Academy. 
+ * Sajeev Punithakaran , Community Maker at Dream Space Academy.
   
-
-https://user-images.githubusercontent.com/81843643/128455724-f88d4e08-b0dc-4e37-a645-d341755bffff.MOV
-
- 
+ <p align="center">
+ https://user-images.githubusercontent.com/81843643/128168873-04116989-047b-404d-9dbd-5ab0898b4210.MOV
+</p>
 
 ## How to Detect a Touch on the Plant?
 <p align="justify"> Our plant circuit is also based on the capacitive touch sensor. That is we will connect a wire to our plant to make it act like an electrode, then when we touch the plant, due to the presence of our body, the capacitance changes and this will be detected by our circuit. And talking about the circuit, we need a microcontroller to detect the change in capacitance and also control the whole system. In our case, the microcontroller is Arduino. </p>
