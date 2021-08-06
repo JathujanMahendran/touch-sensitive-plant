@@ -58,14 +58,12 @@ Our plant circuit is also based on the capacitive touch sensor. That is we will 
 
 To detect the capacitance of the plant, we need to use a capacitive sensor library. 
 After downloading and adding the library to your Arduino IDE, include that library in your code. This library helps to read the capacitance of Arduino pins.
-</p>
+ 
 
-<p align="justify"> 
+We have already connected the resistor between pin 2 and 4, so we need to measure the capacitance in pin 4, for that, defined the pins.
 
-- We have already connected the resistor between pin 2 and 4, so we need to measure the capacitance in pin 4, for that, defined the pins.
+capacitive sensor toggles a microcontroller pin, that is it sends the pin to a new state and then waits for the receive pin to change to the same state as the send pin. In the setup section, I defined different pins for led and sensor lead.
 
-- capacitive sensor toggles a microcontroller pin, that is it sends the pin to a new state and then waits for the receive pin to change to the same state as the send pin. In the setup section, I defined different pins for led and sensor lead.
-
-- Each time a touch is detected, it will increase the counts and I have given different conditions to light up in different colors based on the incremented number.
+Each time a touch is detected, it will increase the counts and I have given different conditions to light up in different colors based on the incremented number.
 </p>
 
