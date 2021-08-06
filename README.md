@@ -39,6 +39,10 @@ Our plant circuit is also based on the capacitive touch sensor. That is we will 
 * Common PCB
 * Circuit Diagram 
 
+## Circuit Diagram
+<p align="center">
+<img src="" height="400px" weidth="400px" >
+</p>
 ## Steps
 
 <p align="justify">
