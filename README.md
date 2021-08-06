@@ -26,7 +26,9 @@ https://user-images.githubusercontent.com/81843643/128456302-bbcb3fb7-86ca-49f5-
 
 
 ## How to Detect a Touch on the Plant?
-<p align="justify"> Our plant circuit is also based on the capacitive touch sensor. That is we will connect a wire to our plant to make it act like an electrode, then when we touch the plant, due to the presence of our body, the capacitance changes and this will be detected by our circuit. And talking about the circuit, we need a microcontroller to detect the change in capacitance and also control the whole system. In our case, the microcontroller is Arduino. </p>
+<p align="justify"> 
+Our plant circuit is also based on the capacitive touch sensor. That is we will connect a wire to our plant to make it act like an electrode, then when we touch the plant, due to the presence of our body, the capacitance changes and this will be detected by our circuit. And talking about the circuit, we need a microcontroller to detect the change in capacitance and also control the whole system. In our case, the microcontroller is Arduino. 
+</p>
 
 ## Materials Needed
 * Arduino
@@ -39,11 +41,11 @@ https://user-images.githubusercontent.com/81843643/128456302-bbcb3fb7-86ca-49f5-
 
 ## Steps
 
-
+<p align="justify">
 - First, connect the one mega ohm resistor in between Arduino pin 2 and pin 4. 
 - Then connect a long wire (copper) to pin 4. This wire acts as an electrode or touch lead, then connects RGB led common ground to ground and red to D5 of Arduino and green to D6, blue to D7.
 - finally, attach the wire to the plant body and that's it 
-
+</p>
 
  
 ## Arduino Program 
@@ -55,9 +57,10 @@ After downloading and adding the library to your Arduino IDE, include that libra
 </p>
 
 <p align="justify"> 
-We have already connected the resistor between pin 2 and 4, so we need to measure the capacitance in pin 4, for that, defined the pins.</p>
-<p align="justify"> 
-capacitive sensor toggles a microcontroller pin, that is it sends the pin to a new state and then waits for the receive pin to change to the same state as the send pin. In the setup section, I defined different pins for led and sensor lead.</p>
-<p align="justify"> 
-Each time a touch is detected, it will increase the counts and I have given different conditions to light up in different colors based on the incremented number.</p>
+We have already connected the resistor between pin 2 and 4, so we need to measure the capacitance in pin 4, for that, defined the pins.
+
+capacitive sensor toggles a microcontroller pin, that is it sends the pin to a new state and then waits for the receive pin to change to the same state as the send pin. In the setup section, I defined different pins for led and sensor lead.
+
+Each time a touch is detected, it will increase the counts and I have given different conditions to light up in different colors based on the incremented number.
+</p>
 
