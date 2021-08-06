@@ -11,16 +11,16 @@ We will learn how to build a touch-based color-changing plant using Arduino. Whe
 </p>
 
 **Author**
- * Jathujan Mahendran jathu , Community Innovator at Dream Space Academy.
+ * Jathujan Mahendran , Community Innovator at Dream Space Academy.
 
 **Acknowledgment**
  * Jerushan Sritharan , Guardian of Electronics Lab, Dream Space Academy.
  * Rathees Koneswaran ,  Community Maker at Dream Space Academy. 
  * Sajeev Punithakaran , Community Maker at Dream Space Academy.
   
- <p align="center">
- https://user-images.githubusercontent.com/81843643/128168873-04116989-047b-404d-9dbd-5ab0898b4210.MOV
-</p>
+<center> 
+https://user-images.githubusercontent.com/81843643/128168873-04116989-047b-404d-9dbd-5ab0898b4210.MOV
+</center> 
 
 ## How to Detect a Touch on the Plant?
 <p align="justify"> Our plant circuit is also based on the capacitive touch sensor. That is we will connect a wire to our plant to make it act like an electrode, then when we touch the plant, due to the presence of our body, the capacitance changes and this will be detected by our circuit. And talking about the circuit, we need a microcontroller to detect the change in capacitance and also control the whole system. In our case, the microcontroller is Arduino. </p>
