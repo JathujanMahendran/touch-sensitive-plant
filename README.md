@@ -7,7 +7,7 @@ We will learn how to build a touch-based color-changing plant using Arduino. Whe
 </p>
 
 <p align="center">
-<img src="source/image-video/image1.jpg"  >
+<img src="source/image-video/image1.jpg"  height="400px" weidth="400px">
 </p>
 
 **Author**
@@ -45,7 +45,7 @@ Our plant circuit is also based on the capacitive touch sensor. That is we will 
 
 ## Circuit Diagram
 <p align="center">
-<img src="source/image-video/circuit-diagram.png"  >
+<img src="source/image-video/circuit-diagram.png"  height="400px" weidth="400px">
 </p>
 ## Steps
 
