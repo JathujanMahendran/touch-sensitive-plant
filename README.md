@@ -19,7 +19,10 @@ We will learn how to build a touch-based color-changing plant using Arduino. Whe
  * Sajeev Punithakaran , Community Maker at Dream Space Academy.
   
 
-https://user-images.githubusercontent.com/81843643/128168873-04116989-047b-404d-9dbd-5ab0898b4210.MOV
+
+https://user-images.githubusercontent.com/81843643/128456302-bbcb3fb7-86ca-49f5-81de-55135a94a2fb.MOV
+
+
 
 
 ## How to Detect a Touch on the Plant?
