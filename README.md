@@ -31,7 +31,7 @@ Our plant circuit is also based on the capacitive touch sensor. That is we will 
 </p>
 
 <p align="center">
-<img src="source/image-video/base-and-arduino.jpg"  >
+<img src="source/image-video/base-and-arduino.jpg" height="400px" weidth="400px" >
 </p>
 
 ## Materials Needed
